@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/brand_family_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/content_copy_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/content_cut_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/content_paste_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/find_replace_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/folder_open_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/line_show_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/note_add_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/redo_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/save_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/save_as_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/status_bar_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/toolbar_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/wrap_text_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>img/undo_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</file>
+    </qresource>
+</RCC>
