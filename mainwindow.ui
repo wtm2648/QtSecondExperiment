@@ -31,7 +31,7 @@
      <number>0</number>
     </property>
     <item>
-     <widget class="QPlainTextEdit" name="TextEdit"/>
+     <widget class="CodeEditor" name="TextEdit"/>
     </item>
    </layout>
   </widget>
@@ -272,6 +272,9 @@
    </property>
   </action>
   <action name="ShowLineCount">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/img/line_show_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/img/line_show_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</iconset>
@@ -284,6 +287,9 @@
    </property>
   </action>
   <action name="AutoNewLine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/img/wrap_text_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/img/wrap_text_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</iconset>
@@ -293,6 +299,9 @@
    </property>
   </action>
   <action name="ToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/img/toolbar_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/img/toolbar_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</iconset>
@@ -302,6 +311,9 @@
    </property>
   </action>
   <action name="StatusBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/img/status_bar_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/img/status_bar_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg</iconset>
@@ -344,6 +356,13 @@
    </property>
   </action>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CodeEditor</class>
+   <extends>QPlainTextEdit</extends>
+   <header location="global">codeeditor.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="res.qrc"/>
  </resources>
